@@ -1,0 +1,899 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D798016F07827D3C455A7428 /* libPods-WHCMusic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1424CAA232D9FB78473B67A1 /* libPods-WHCMusic.a */; };
+		DB81F1A92019B64B0039105C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB81F1A82019B64B0039105C /* AppDelegate.m */; };
+		DB81F1B12019B64B0039105C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1B02019B64B0039105C /* Assets.xcassets */; };
+		DB81F1B42019B64B0039105C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1B22019B64B0039105C /* LaunchScreen.storyboard */; };
+		DB81F1B72019B64B0039105C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB81F1B62019B64B0039105C /* main.m */; };
+		DB81F1C12019B64B0039105C /* WHCMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB81F1C02019B64B0039105C /* WHCMusicTests.m */; };
+		DB81F1CC2019B64B0039105C /* WHCMusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB81F1CB2019B64B0039105C /* WHCMusicUITests.m */; };
+		DB81F2182019B7410039105C /* TestLb.m in Sources */ = {isa = PBXBuildFile; fileRef = DB81F1DA2019B73F0039105C /* TestLb.m */; };
+		DB81F2192019B7410039105C /* WHCMusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB81F1DD2019B73F0039105C /* WHCMusicModel.m */; };
+		DB81F21A2019B7410039105C /* WHCLrcModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB81F1DE2019B73F0039105C /* WHCLrcModel.m */; };
+		DB81F21B2019B7410039105C /* 月半小夜曲.lrc in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1E12019B7400039105C /* 月半小夜曲.lrc */; };
+		DB81F21C2019B7410039105C /* 李克勤 - 月半小夜曲.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1E22019B7400039105C /* 李克勤 - 月半小夜曲.mp3 */; };
+		DB81F21D2019B7410039105C /* buyao.wav in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1E32019B7400039105C /* buyao.wav */; };
+		DB81F21E2019B7410039105C /* I'm yours.lrc in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1E42019B7400039105C /* I'm yours.lrc */; };
+		DB81F21F2019B7410039105C /* G.E.M. 邓紫棋 - 泡沫.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1E52019B7400039105C /* G.E.M. 邓紫棋 - 泡沫.mp3 */; };
+		DB81F2202019B7410039105C /* xpg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1E62019B7400039105C /* xpg.jpg */; };
+		DB81F2212019B7410039105C /* Owl City - The Saltwater Room.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1E72019B7400039105C /* Owl City - The Saltwater Room.mp3 */; };
+		DB81F2222019B7410039105C /* st.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1E82019B7400039105C /* st.jpg */; };
+		DB81F2232019B7410039105C /* Jason Mraz - I'm Yours.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1E92019B7400039105C /* Jason Mraz - I'm Yours.mp3 */; };
+		DB81F2242019B7410039105C /* jason.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1EA2019B7400039105C /* jason.jpg */; };
+		DB81F2252019B7410039105C /* paomo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1EB2019B7400039105C /* paomo.jpg */; };
+		DB81F2262019B7410039105C /* 稳稳的幸福.lrc in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1EC2019B7400039105C /* 稳稳的幸福.lrc */; };
+		DB81F2272019B7410039105C /* 小苹果.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1ED2019B7400039105C /* 小苹果.mp3 */; };
+		DB81F2282019B7410039105C /* The salt water room.lrc in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1EE2019B7400039105C /* The salt water room.lrc */; };
+		DB81F2292019B7410039105C /* 张译 - 稳稳的幸福.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1EF2019B7400039105C /* 张译 - 稳稳的幸福.mp3 */; };
+		DB81F22A2019B7410039105C /* 小苹果.lrc in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1F02019B7400039105C /* 小苹果.lrc */; };
+		DB81F22B2019B7410039105C /* test.wav in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1F12019B7400039105C /* test.wav */; };
+		DB81F22C2019B7410039105C /* lamazhengzhuan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1F22019B7400039105C /* lamazhengzhuan.jpg */; };
+		DB81F22D2019B7410039105C /* 李克勤.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1F32019B7400039105C /* 李克勤.jpg */; };
+		DB81F22E2019B7410039105C /* 泡沫.lrc in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1F42019B7400039105C /* 泡沫.lrc */; };
+		DB81F22F2019B7410039105C /* chatcome.wav in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1F52019B7400039105C /* chatcome.wav */; };
+		DB81F2302019B7410039105C /* mlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1F62019B7400039105C /* mlist.plist */; };
+		DB81F2312019B7410039105C /* LaunchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1F82019B7400039105C /* LaunchImage@2x.png */; };
+		DB81F2322019B7410039105C /* lyric_mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1F92019B7400039105C /* lyric_mask@2x.png */; };
+		DB81F2332019B7410039105C /* AppIcon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1FA2019B7400039105C /* AppIcon57x57.png */; };
+		DB81F2342019B7410039105C /* AppIcon29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1FB2019B7400039105C /* AppIcon29x29.png */; };
+		DB81F2352019B7410039105C /* playing_btn_pre_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1FC2019B7400039105C /* playing_btn_pre_h@2x.png */; };
+		DB81F2362019B7410039105C /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1FD2019B7400039105C /* LaunchImage-568h@2x.png */; };
+		DB81F2372019B7410039105C /* AppIcon60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1FE2019B7400039105C /* AppIcon60x60@2x.png */; };
+		DB81F2382019B7410039105C /* lyricview_seek_button_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB81F1FF2019B7400039105C /* lyricview_seek_button_h@2x.png */; };
+		DB81F2392019B7410039105C /* AppIcon29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB81F2002019B7400039105C /* AppIcon29x29@2x.png */; };
+		DB81F23A2019B7410039105C /* LaunchImage-800-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB81F2012019B7400039105C /* LaunchImage-800-667h@2x.png */; };
+		DB81F23B2019B7410039105C /* AppIcon57x57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB81F2022019B7400039105C /* AppIcon57x57@2x.png */; };
+		DB81F23C2019B7410039105C /* AppIcon40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB81F2032019B7400039105C /* AppIcon40x40@2x.png */; };
+		DB81F23D2019B7410039105C /* playing_btn_pre_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB81F2042019B7400039105C /* playing_btn_pre_n@2x.png */; };
+		DB81F23E2019B7410039105C /* playing_list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB81F2052019B7400039105C /* playing_list@2x.png */; };
+		DB81F23F2019B7410039105C /* playing_btn_play_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB81F2062019B7400039105C /* playing_btn_play_h@2x.png */; };
+		DB81F2402019B7410039105C /* playing_btn_next_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB81F2072019B7400039105C /* playing_btn_next_h@2x.png */; };
+		DB81F2412019B7410039105C /* LaunchImage-800-Portrait-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB81F2082019B7400039105C /* LaunchImage-800-Portrait-736h@3x.png */; };
+		DB81F2422019B7410039105C /* lyricview_seek_button_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB81F2092019B7400039105C /* lyricview_seek_button_selected@2x.png */; };
+		DB81F2432019B7410039105C /* LaunchImage-700@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB81F20A2019B7400039105C /* LaunchImage-700@2x.png */; };
+		DB81F2442019B7410039105C /* playing_btn_pause_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB81F20B2019B7400039105C /* playing_btn_pause_n@2x.png */; };
+		DB81F2452019B7410039105C /* LaunchImage-700-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB81F20C2019B7400039105C /* LaunchImage-700-568h@2x.png */; };
+		DB81F2462019B7410039105C /* playing_btn_next_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB81F20D2019B7400039105C /* playing_btn_next_n@2x.png */; };
+		DB81F2472019B7410039105C /* playing_btn_play_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB81F20E2019B7400039105C /* playing_btn_play_n@2x.png */; };
+		DB81F2482019B7410039105C /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = DB81F20F2019B7400039105C /* LaunchImage.png */; };
+		DB81F2492019B7410039105C /* playing_list_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB81F2102019B7400039105C /* playing_list_h@2x.png */; };
+		DB81F24A2019B7410039105C /* lock_lyric_mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB81F2112019B7400039105C /* lock_lyric_mask@2x.png */; };
+		DB81F24B2019B7410039105C /* playing_btn_pause_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB81F2122019B7400039105C /* playing_btn_pause_h@2x.png */; };
+		DB81F24C2019B7410039105C /* WHCMusicTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DB81F2142019B7400039105C /* WHCMusicTool.m */; };
+		DB81F24D2019B7410039105C /* WHCLyricTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DB81F2152019B7400039105C /* WHCLyricTool.m */; };
+		DB81F2502019B7630039105C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB81F24E2019B7630039105C /* Main.storyboard */; };
+		DB81F2522019B7740039105C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB81F2512019B7740039105C /* AVFoundation.framework */; };
+		DB81F2542019B77C0039105C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB81F2532019B77C0039105C /* MediaPlayer.framework */; };
+		DB81F2572019B7C50039105C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB81F2562019B7C40039105C /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB81F1BD2019B64B0039105C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB81F19C2019B64B0039105C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB81F1A32019B64B0039105C;
+			remoteInfo = WHCMusic;
+		};
+		DB81F1C82019B64B0039105C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB81F19C2019B64B0039105C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB81F1A32019B64B0039105C;
+			remoteInfo = WHCMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1424CAA232D9FB78473B67A1 /* libPods-WHCMusic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WHCMusic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4F0BC9739F1136B1FFACC6 /* Pods-WHCMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHCMusic.release.xcconfig"; path = "Pods/Target Support Files/Pods-WHCMusic/Pods-WHCMusic.release.xcconfig"; sourceTree = "<group>"; };
+		930A17376C13863E0BB4DA36 /* Pods-WHCMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHCMusic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WHCMusic/Pods-WHCMusic.debug.xcconfig"; sourceTree = "<group>"; };
+		DB81F1A42019B64B0039105C /* WHCMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WHCMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB81F1A72019B64B0039105C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB81F1A82019B64B0039105C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB81F1B02019B64B0039105C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB81F1B32019B64B0039105C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB81F1B52019B64B0039105C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB81F1B62019B64B0039105C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB81F1BC2019B64B0039105C /* WHCMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHCMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB81F1C02019B64B0039105C /* WHCMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHCMusicTests.m; sourceTree = "<group>"; };
+		DB81F1C22019B64B0039105C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB81F1C72019B64B0039105C /* WHCMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHCMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB81F1CB2019B64B0039105C /* WHCMusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHCMusicUITests.m; sourceTree = "<group>"; };
+		DB81F1CD2019B64B0039105C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB81F1D92019B73F0039105C /* TestLb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestLb.h; sourceTree = "<group>"; };
+		DB81F1DA2019B73F0039105C /* TestLb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestLb.m; sourceTree = "<group>"; };
+		DB81F1DC2019B73F0039105C /* WHCLrcModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHCLrcModel.h; sourceTree = "<group>"; };
+		DB81F1DD2019B73F0039105C /* WHCMusicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHCMusicModel.m; sourceTree = "<group>"; };
+		DB81F1DE2019B73F0039105C /* WHCLrcModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHCLrcModel.m; sourceTree = "<group>"; };
+		DB81F1DF2019B73F0039105C /* WHCMusicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHCMusicModel.h; sourceTree = "<group>"; };
+		DB81F1E12019B7400039105C /* 月半小夜曲.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "月半小夜曲.lrc"; sourceTree = "<group>"; };
+		DB81F1E22019B7400039105C /* 李克勤 - 月半小夜曲.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "李克勤 - 月半小夜曲.mp3"; sourceTree = "<group>"; };
+		DB81F1E32019B7400039105C /* buyao.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = buyao.wav; sourceTree = "<group>"; };
+		DB81F1E42019B7400039105C /* I'm yours.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "I'm yours.lrc"; sourceTree = "<group>"; };
+		DB81F1E52019B7400039105C /* G.E.M. 邓紫棋 - 泡沫.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "G.E.M. 邓紫棋 - 泡沫.mp3"; sourceTree = "<group>"; };
+		DB81F1E62019B7400039105C /* xpg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xpg.jpg; sourceTree = "<group>"; };
+		DB81F1E72019B7400039105C /* Owl City - The Saltwater Room.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Owl City - The Saltwater Room.mp3"; sourceTree = "<group>"; };
+		DB81F1E82019B7400039105C /* st.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = st.jpg; sourceTree = "<group>"; };
+		DB81F1E92019B7400039105C /* Jason Mraz - I'm Yours.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jason Mraz - I'm Yours.mp3"; sourceTree = "<group>"; };
+		DB81F1EA2019B7400039105C /* jason.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jason.jpg; sourceTree = "<group>"; };
+		DB81F1EB2019B7400039105C /* paomo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paomo.jpg; sourceTree = "<group>"; };
+		DB81F1EC2019B7400039105C /* 稳稳的幸福.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "稳稳的幸福.lrc"; sourceTree = "<group>"; };
+		DB81F1ED2019B7400039105C /* 小苹果.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "小苹果.mp3"; sourceTree = "<group>"; };
+		DB81F1EE2019B7400039105C /* The salt water room.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "The salt water room.lrc"; sourceTree = "<group>"; };
+		DB81F1EF2019B7400039105C /* 张译 - 稳稳的幸福.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "张译 - 稳稳的幸福.mp3"; sourceTree = "<group>"; };
+		DB81F1F02019B7400039105C /* 小苹果.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "小苹果.lrc"; sourceTree = "<group>"; };
+		DB81F1F12019B7400039105C /* test.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = test.wav; sourceTree = "<group>"; };
+		DB81F1F22019B7400039105C /* lamazhengzhuan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lamazhengzhuan.jpg; sourceTree = "<group>"; };
+		DB81F1F32019B7400039105C /* 李克勤.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "李克勤.jpg"; sourceTree = "<group>"; };
+		DB81F1F42019B7400039105C /* 泡沫.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "泡沫.lrc"; sourceTree = "<group>"; };
+		DB81F1F52019B7400039105C /* chatcome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chatcome.wav; sourceTree = "<group>"; };
+		DB81F1F62019B7400039105C /* mlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mlist.plist; sourceTree = "<group>"; };
+		DB81F1F82019B7400039105C /* LaunchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage@2x.png"; sourceTree = "<group>"; };
+		DB81F1F92019B7400039105C /* lyric_mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lyric_mask@2x.png"; sourceTree = "<group>"; };
+		DB81F1FA2019B7400039105C /* AppIcon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon57x57.png; sourceTree = "<group>"; };
+		DB81F1FB2019B7400039105C /* AppIcon29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon29x29.png; sourceTree = "<group>"; };
+		DB81F1FC2019B7400039105C /* playing_btn_pre_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playing_btn_pre_h@2x.png"; sourceTree = "<group>"; };
+		DB81F1FD2019B7400039105C /* LaunchImage-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-568h@2x.png"; sourceTree = "<group>"; };
+		DB81F1FE2019B7400039105C /* AppIcon60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@2x.png"; sourceTree = "<group>"; };
+		DB81F1FF2019B7400039105C /* lyricview_seek_button_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lyricview_seek_button_h@2x.png"; sourceTree = "<group>"; };
+		DB81F2002019B7400039105C /* AppIcon29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@2x.png"; sourceTree = "<group>"; };
+		DB81F2012019B7400039105C /* LaunchImage-800-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-667h@2x.png"; sourceTree = "<group>"; };
+		DB81F2022019B7400039105C /* AppIcon57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon57x57@2x.png"; sourceTree = "<group>"; };
+		DB81F2032019B7400039105C /* AppIcon40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon40x40@2x.png"; sourceTree = "<group>"; };
+		DB81F2042019B7400039105C /* playing_btn_pre_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playing_btn_pre_n@2x.png"; sourceTree = "<group>"; };
+		DB81F2052019B7400039105C /* playing_list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playing_list@2x.png"; sourceTree = "<group>"; };
+		DB81F2062019B7400039105C /* playing_btn_play_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playing_btn_play_h@2x.png"; sourceTree = "<group>"; };
+		DB81F2072019B7400039105C /* playing_btn_next_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playing_btn_next_h@2x.png"; sourceTree = "<group>"; };
+		DB81F2082019B7400039105C /* LaunchImage-800-Portrait-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-Portrait-736h@3x.png"; sourceTree = "<group>"; };
+		DB81F2092019B7400039105C /* lyricview_seek_button_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lyricview_seek_button_selected@2x.png"; sourceTree = "<group>"; };
+		DB81F20A2019B7400039105C /* LaunchImage-700@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700@2x.png"; sourceTree = "<group>"; };
+		DB81F20B2019B7400039105C /* playing_btn_pause_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playing_btn_pause_n@2x.png"; sourceTree = "<group>"; };
+		DB81F20C2019B7400039105C /* LaunchImage-700-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700-568h@2x.png"; sourceTree = "<group>"; };
+		DB81F20D2019B7400039105C /* playing_btn_next_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playing_btn_next_n@2x.png"; sourceTree = "<group>"; };
+		DB81F20E2019B7400039105C /* playing_btn_play_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playing_btn_play_n@2x.png"; sourceTree = "<group>"; };
+		DB81F20F2019B7400039105C /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		DB81F2102019B7400039105C /* playing_list_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playing_list_h@2x.png"; sourceTree = "<group>"; };
+		DB81F2112019B7400039105C /* lock_lyric_mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lock_lyric_mask@2x.png"; sourceTree = "<group>"; };
+		DB81F2122019B7400039105C /* playing_btn_pause_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playing_btn_pause_h@2x.png"; sourceTree = "<group>"; };
+		DB81F2142019B7400039105C /* WHCMusicTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHCMusicTool.m; sourceTree = "<group>"; };
+		DB81F2152019B7400039105C /* WHCLyricTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHCLyricTool.m; sourceTree = "<group>"; };
+		DB81F2162019B7400039105C /* WHCLyricTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHCLyricTool.h; sourceTree = "<group>"; };
+		DB81F2172019B7400039105C /* WHCMusicTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHCMusicTool.h; sourceTree = "<group>"; };
+		DB81F24F2019B7630039105C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB81F2512019B7740039105C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DB81F2532019B77C0039105C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DB81F2552019B7C40039105C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB81F2562019B7C40039105C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB81F1A12019B64B0039105C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB81F2542019B77C0039105C /* MediaPlayer.framework in Frameworks */,
+				DB81F2522019B7740039105C /* AVFoundation.framework in Frameworks */,
+				D798016F07827D3C455A7428 /* libPods-WHCMusic.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB81F1B92019B64B0039105C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB81F1C42019B64B0039105C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7A66EABC218C0E06793CDDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB81F2532019B77C0039105C /* MediaPlayer.framework */,
+				DB81F2512019B7740039105C /* AVFoundation.framework */,
+				1424CAA232D9FB78473B67A1 /* libPods-WHCMusic.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7E85678CAB7983DFE0F5503 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				930A17376C13863E0BB4DA36 /* Pods-WHCMusic.debug.xcconfig */,
+				4F4F0BC9739F1136B1FFACC6 /* Pods-WHCMusic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB81F19B2019B64B0039105C = {
+			isa = PBXGroup;
+			children = (
+				DB81F1A62019B64B0039105C /* WHCMusic */,
+				DB81F1BF2019B64B0039105C /* WHCMusicTests */,
+				DB81F1CA2019B64B0039105C /* WHCMusicUITests */,
+				DB81F1A52019B64B0039105C /* Products */,
+				D7E85678CAB7983DFE0F5503 /* Pods */,
+				D7A66EABC218C0E06793CDDC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB81F1A52019B64B0039105C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB81F1A42019B64B0039105C /* WHCMusic.app */,
+				DB81F1BC2019B64B0039105C /* WHCMusicTests.xctest */,
+				DB81F1C72019B64B0039105C /* WHCMusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB81F1A62019B64B0039105C /* WHCMusic */ = {
+			isa = PBXGroup;
+			children = (
+				DB81F1E02019B7400039105C /* Assets */,
+				DB81F1F72019B7400039105C /* Images */,
+				DB81F1F62019B7400039105C /* mlist.plist */,
+				DB81F1DB2019B73F0039105C /* Model */,
+				DB81F1D92019B73F0039105C /* TestLb.h */,
+				DB81F1DA2019B73F0039105C /* TestLb.m */,
+				DB81F2132019B7400039105C /* Tool */,
+				DB81F1A72019B64B0039105C /* AppDelegate.h */,
+				DB81F1A82019B64B0039105C /* AppDelegate.m */,
+				DB81F2552019B7C40039105C /* ViewController.h */,
+				DB81F2562019B7C40039105C /* ViewController.m */,
+				DB81F24E2019B7630039105C /* Main.storyboard */,
+				DB81F1B02019B64B0039105C /* Assets.xcassets */,
+				DB81F1B22019B64B0039105C /* LaunchScreen.storyboard */,
+				DB81F1B52019B64B0039105C /* Info.plist */,
+				DB81F1B62019B64B0039105C /* main.m */,
+			);
+			path = WHCMusic;
+			sourceTree = "<group>";
+		};
+		DB81F1BF2019B64B0039105C /* WHCMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB81F1C02019B64B0039105C /* WHCMusicTests.m */,
+				DB81F1C22019B64B0039105C /* Info.plist */,
+			);
+			path = WHCMusicTests;
+			sourceTree = "<group>";
+		};
+		DB81F1CA2019B64B0039105C /* WHCMusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB81F1CB2019B64B0039105C /* WHCMusicUITests.m */,
+				DB81F1CD2019B64B0039105C /* Info.plist */,
+			);
+			path = WHCMusicUITests;
+			sourceTree = "<group>";
+		};
+		DB81F1DB2019B73F0039105C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB81F1DC2019B73F0039105C /* WHCLrcModel.h */,
+				DB81F1DD2019B73F0039105C /* WHCMusicModel.m */,
+				DB81F1DE2019B73F0039105C /* WHCLrcModel.m */,
+				DB81F1DF2019B73F0039105C /* WHCMusicModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB81F1E02019B7400039105C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DB81F1E12019B7400039105C /* 月半小夜曲.lrc */,
+				DB81F1E22019B7400039105C /* 李克勤 - 月半小夜曲.mp3 */,
+				DB81F1E32019B7400039105C /* buyao.wav */,
+				DB81F1E42019B7400039105C /* I'm yours.lrc */,
+				DB81F1E52019B7400039105C /* G.E.M. 邓紫棋 - 泡沫.mp3 */,
+				DB81F1E62019B7400039105C /* xpg.jpg */,
+				DB81F1E72019B7400039105C /* Owl City - The Saltwater Room.mp3 */,
+				DB81F1E82019B7400039105C /* st.jpg */,
+				DB81F1E92019B7400039105C /* Jason Mraz - I'm Yours.mp3 */,
+				DB81F1EA2019B7400039105C /* jason.jpg */,
+				DB81F1EB2019B7400039105C /* paomo.jpg */,
+				DB81F1EC2019B7400039105C /* 稳稳的幸福.lrc */,
+				DB81F1ED2019B7400039105C /* 小苹果.mp3 */,
+				DB81F1EE2019B7400039105C /* The salt water room.lrc */,
+				DB81F1EF2019B7400039105C /* 张译 - 稳稳的幸福.mp3 */,
+				DB81F1F02019B7400039105C /* 小苹果.lrc */,
+				DB81F1F12019B7400039105C /* test.wav */,
+				DB81F1F22019B7400039105C /* lamazhengzhuan.jpg */,
+				DB81F1F32019B7400039105C /* 李克勤.jpg */,
+				DB81F1F42019B7400039105C /* 泡沫.lrc */,
+				DB81F1F52019B7400039105C /* chatcome.wav */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DB81F1F72019B7400039105C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DB81F1F82019B7400039105C /* LaunchImage@2x.png */,
+				DB81F1F92019B7400039105C /* lyric_mask@2x.png */,
+				DB81F1FA2019B7400039105C /* AppIcon57x57.png */,
+				DB81F1FB2019B7400039105C /* AppIcon29x29.png */,
+				DB81F1FC2019B7400039105C /* playing_btn_pre_h@2x.png */,
+				DB81F1FD2019B7400039105C /* LaunchImage-568h@2x.png */,
+				DB81F1FE2019B7400039105C /* AppIcon60x60@2x.png */,
+				DB81F1FF2019B7400039105C /* lyricview_seek_button_h@2x.png */,
+				DB81F2002019B7400039105C /* AppIcon29x29@2x.png */,
+				DB81F2012019B7400039105C /* LaunchImage-800-667h@2x.png */,
+				DB81F2022019B7400039105C /* AppIcon57x57@2x.png */,
+				DB81F2032019B7400039105C /* AppIcon40x40@2x.png */,
+				DB81F2042019B7400039105C /* playing_btn_pre_n@2x.png */,
+				DB81F2052019B7400039105C /* playing_list@2x.png */,
+				DB81F2062019B7400039105C /* playing_btn_play_h@2x.png */,
+				DB81F2072019B7400039105C /* playing_btn_next_h@2x.png */,
+				DB81F2082019B7400039105C /* LaunchImage-800-Portrait-736h@3x.png */,
+				DB81F2092019B7400039105C /* lyricview_seek_button_selected@2x.png */,
+				DB81F20A2019B7400039105C /* LaunchImage-700@2x.png */,
+				DB81F20B2019B7400039105C /* playing_btn_pause_n@2x.png */,
+				DB81F20C2019B7400039105C /* LaunchImage-700-568h@2x.png */,
+				DB81F20D2019B7400039105C /* playing_btn_next_n@2x.png */,
+				DB81F20E2019B7400039105C /* playing_btn_play_n@2x.png */,
+				DB81F20F2019B7400039105C /* LaunchImage.png */,
+				DB81F2102019B7400039105C /* playing_list_h@2x.png */,
+				DB81F2112019B7400039105C /* lock_lyric_mask@2x.png */,
+				DB81F2122019B7400039105C /* playing_btn_pause_h@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		DB81F2132019B7400039105C /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				DB81F2142019B7400039105C /* WHCMusicTool.m */,
+				DB81F2152019B7400039105C /* WHCLyricTool.m */,
+				DB81F2162019B7400039105C /* WHCLyricTool.h */,
+				DB81F2172019B7400039105C /* WHCMusicTool.h */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB81F1A32019B64B0039105C /* WHCMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB81F1D02019B64B0039105C /* Build configuration list for PBXNativeTarget "WHCMusic" */;
+			buildPhases = (
+				2DC5CEAD8D8264F606296FEC /* [CP] Check Pods Manifest.lock */,
+				DB81F1A02019B64B0039105C /* Sources */,
+				DB81F1A12019B64B0039105C /* Frameworks */,
+				DB81F1A22019B64B0039105C /* Resources */,
+				0526FAC34E0B79BEAF3658E6 /* [CP] Embed Pods Frameworks */,
+				1C42683681E5662C683F8C91 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WHCMusic;
+			productName = WHCMusic;
+			productReference = DB81F1A42019B64B0039105C /* WHCMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB81F1BB2019B64B0039105C /* WHCMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB81F1D32019B64B0039105C /* Build configuration list for PBXNativeTarget "WHCMusicTests" */;
+			buildPhases = (
+				DB81F1B82019B64B0039105C /* Sources */,
+				DB81F1B92019B64B0039105C /* Frameworks */,
+				DB81F1BA2019B64B0039105C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB81F1BE2019B64B0039105C /* PBXTargetDependency */,
+			);
+			name = WHCMusicTests;
+			productName = WHCMusicTests;
+			productReference = DB81F1BC2019B64B0039105C /* WHCMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB81F1C62019B64B0039105C /* WHCMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB81F1D62019B64B0039105C /* Build configuration list for PBXNativeTarget "WHCMusicUITests" */;
+			buildPhases = (
+				DB81F1C32019B64B0039105C /* Sources */,
+				DB81F1C42019B64B0039105C /* Frameworks */,
+				DB81F1C52019B64B0039105C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB81F1C92019B64B0039105C /* PBXTargetDependency */,
+			);
+			name = WHCMusicUITests;
+			productName = WHCMusicUITests;
+			productReference = DB81F1C72019B64B0039105C /* WHCMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB81F19C2019B64B0039105C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = WHC;
+				TargetAttributes = {
+					DB81F1A32019B64B0039105C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DB81F1BB2019B64B0039105C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB81F1A32019B64B0039105C;
+					};
+					DB81F1C62019B64B0039105C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB81F1A32019B64B0039105C;
+					};
+				};
+			};
+			buildConfigurationList = DB81F19F2019B64B0039105C /* Build configuration list for PBXProject "WHCMusic" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB81F19B2019B64B0039105C;
+			productRefGroup = DB81F1A52019B64B0039105C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB81F1A32019B64B0039105C /* WHCMusic */,
+				DB81F1BB2019B64B0039105C /* WHCMusicTests */,
+				DB81F1C62019B64B0039105C /* WHCMusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB81F1A22019B64B0039105C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB81F22B2019B7410039105C /* test.wav in Resources */,
+				DB81F23F2019B7410039105C /* playing_btn_play_h@2x.png in Resources */,
+				DB81F2252019B7410039105C /* paomo.jpg in Resources */,
+				DB81F2392019B7410039105C /* AppIcon29x29@2x.png in Resources */,
+				DB81F2202019B7410039105C /* xpg.jpg in Resources */,
+				DB81F22C2019B7410039105C /* lamazhengzhuan.jpg in Resources */,
+				DB81F23A2019B7410039105C /* LaunchImage-800-667h@2x.png in Resources */,
+				DB81F2502019B7630039105C /* Main.storyboard in Resources */,
+				DB81F1B42019B64B0039105C /* LaunchScreen.storyboard in Resources */,
+				DB81F2262019B7410039105C /* 稳稳的幸福.lrc in Resources */,
+				DB81F22E2019B7410039105C /* 泡沫.lrc in Resources */,
+				DB81F2212019B7410039105C /* Owl City - The Saltwater Room.mp3 in Resources */,
+				DB81F2322019B7410039105C /* lyric_mask@2x.png in Resources */,
+				DB81F23E2019B7410039105C /* playing_list@2x.png in Resources */,
+				DB81F2432019B7410039105C /* LaunchImage-700@2x.png in Resources */,
+				DB81F2362019B7410039105C /* LaunchImage-568h@2x.png in Resources */,
+				DB81F1B12019B64B0039105C /* Assets.xcassets in Resources */,
+				DB81F2492019B7410039105C /* playing_list_h@2x.png in Resources */,
+				DB81F2462019B7410039105C /* playing_btn_next_n@2x.png in Resources */,
+				DB81F2452019B7410039105C /* LaunchImage-700-568h@2x.png in Resources */,
+				DB81F2312019B7410039105C /* LaunchImage@2x.png in Resources */,
+				DB81F2352019B7410039105C /* playing_btn_pre_h@2x.png in Resources */,
+				DB81F21C2019B7410039105C /* 李克勤 - 月半小夜曲.mp3 in Resources */,
+				DB81F22D2019B7410039105C /* 李克勤.jpg in Resources */,
+				DB81F2342019B7410039105C /* AppIcon29x29.png in Resources */,
+				DB81F24A2019B7410039105C /* lock_lyric_mask@2x.png in Resources */,
+				DB81F23B2019B7410039105C /* AppIcon57x57@2x.png in Resources */,
+				DB81F2482019B7410039105C /* LaunchImage.png in Resources */,
+				DB81F23D2019B7410039105C /* playing_btn_pre_n@2x.png in Resources */,
+				DB81F22F2019B7410039105C /* chatcome.wav in Resources */,
+				DB81F21B2019B7410039105C /* 月半小夜曲.lrc in Resources */,
+				DB81F23C2019B7410039105C /* AppIcon40x40@2x.png in Resources */,
+				DB81F2272019B7410039105C /* 小苹果.mp3 in Resources */,
+				DB81F2332019B7410039105C /* AppIcon57x57.png in Resources */,
+				DB81F2472019B7410039105C /* playing_btn_play_n@2x.png in Resources */,
+				DB81F22A2019B7410039105C /* 小苹果.lrc in Resources */,
+				DB81F21E2019B7410039105C /* I'm yours.lrc in Resources */,
+				DB81F2302019B7410039105C /* mlist.plist in Resources */,
+				DB81F2292019B7410039105C /* 张译 - 稳稳的幸福.mp3 in Resources */,
+				DB81F2242019B7410039105C /* jason.jpg in Resources */,
+				DB81F2382019B7410039105C /* lyricview_seek_button_h@2x.png in Resources */,
+				DB81F2412019B7410039105C /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
+				DB81F24B2019B7410039105C /* playing_btn_pause_h@2x.png in Resources */,
+				DB81F2222019B7410039105C /* st.jpg in Resources */,
+				DB81F2402019B7410039105C /* playing_btn_next_h@2x.png in Resources */,
+				DB81F2232019B7410039105C /* Jason Mraz - I'm Yours.mp3 in Resources */,
+				DB81F21F2019B7410039105C /* G.E.M. 邓紫棋 - 泡沫.mp3 in Resources */,
+				DB81F21D2019B7410039105C /* buyao.wav in Resources */,
+				DB81F2422019B7410039105C /* lyricview_seek_button_selected@2x.png in Resources */,
+				DB81F2442019B7410039105C /* playing_btn_pause_n@2x.png in Resources */,
+				DB81F2372019B7410039105C /* AppIcon60x60@2x.png in Resources */,
+				DB81F2282019B7410039105C /* The salt water room.lrc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB81F1BA2019B64B0039105C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB81F1C52019B64B0039105C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0526FAC34E0B79BEAF3658E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WHCMusic/Pods-WHCMusic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C42683681E5662C683F8C91 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WHCMusic/Pods-WHCMusic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DC5CEAD8D8264F606296FEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WHCMusic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB81F1A02019B64B0039105C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB81F21A2019B7410039105C /* WHCLrcModel.m in Sources */,
+				DB81F2182019B7410039105C /* TestLb.m in Sources */,
+				DB81F2572019B7C50039105C /* ViewController.m in Sources */,
+				DB81F1B72019B64B0039105C /* main.m in Sources */,
+				DB81F24D2019B7410039105C /* WHCLyricTool.m in Sources */,
+				DB81F2192019B7410039105C /* WHCMusicModel.m in Sources */,
+				DB81F1A92019B64B0039105C /* AppDelegate.m in Sources */,
+				DB81F24C2019B7410039105C /* WHCMusicTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB81F1B82019B64B0039105C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB81F1C12019B64B0039105C /* WHCMusicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB81F1C32019B64B0039105C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB81F1CC2019B64B0039105C /* WHCMusicUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB81F1BE2019B64B0039105C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB81F1A32019B64B0039105C /* WHCMusic */;
+			targetProxy = DB81F1BD2019B64B0039105C /* PBXContainerItemProxy */;
+		};
+		DB81F1C92019B64B0039105C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB81F1A32019B64B0039105C /* WHCMusic */;
+			targetProxy = DB81F1C82019B64B0039105C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB81F1B22019B64B0039105C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB81F1B32019B64B0039105C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DB81F24E2019B7630039105C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB81F24F2019B7630039105C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB81F1CE2019B64B0039105C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB81F1CF2019B64B0039105C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB81F1D12019B64B0039105C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930A17376C13863E0BB4DA36 /* Pods-WHCMusic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35PF467ZJG;
+				INFOPLIST_FILE = WHCMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MusicDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB81F1D22019B64B0039105C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F4F0BC9739F1136B1FFACC6 /* Pods-WHCMusic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35PF467ZJG;
+				INFOPLIST_FILE = WHCMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MusicDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB81F1D42019B64B0039105C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WHCMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..WHCMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WHCMusic.app/WHCMusic";
+			};
+			name = Debug;
+		};
+		DB81F1D52019B64B0039105C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WHCMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..WHCMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WHCMusic.app/WHCMusic";
+			};
+			name = Release;
+		};
+		DB81F1D72019B64B0039105C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WHCMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..WHCMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WHCMusic;
+			};
+			name = Debug;
+		};
+		DB81F1D82019B64B0039105C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WHCMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..WHCMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WHCMusic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB81F19F2019B64B0039105C /* Build configuration list for PBXProject "WHCMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB81F1CE2019B64B0039105C /* Debug */,
+				DB81F1CF2019B64B0039105C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB81F1D02019B64B0039105C /* Build configuration list for PBXNativeTarget "WHCMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB81F1D12019B64B0039105C /* Debug */,
+				DB81F1D22019B64B0039105C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB81F1D32019B64B0039105C /* Build configuration list for PBXNativeTarget "WHCMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB81F1D42019B64B0039105C /* Debug */,
+				DB81F1D52019B64B0039105C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB81F1D62019B64B0039105C /* Build configuration list for PBXNativeTarget "WHCMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB81F1D72019B64B0039105C /* Debug */,
+				DB81F1D82019B64B0039105C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB81F19C2019B64B0039105C /* Project object */;
+}
